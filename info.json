@@ -23,7 +23,7 @@
         ],
         "directories": [
             {
-                "name": "assets/brand",
+                "name": "brand",
                 "path": "assets/brand/ai_chat"
             }
         ]
