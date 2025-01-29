@@ -36,7 +36,10 @@
                 "components/form/form.css"
             ],
             "js": [
-                "./components/form/form.js"
+                {
+                    "name": "Form",
+                    "path": "./components/form/form.js"
+                }
             ]
         }
     },
@@ -136,7 +139,10 @@
                 "others/theme/theme.css"
             ],
             "js": [
-                "./others/theme/theme.js"
+                {
+                    "name": "Theme",
+                    "path": "./others/theme/theme.js"
+                }
             ]
         }
     }
