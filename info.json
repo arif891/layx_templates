@@ -126,6 +126,10 @@
             {
                 "name": "logo.svg",
                 "path": "assets/brand/ai_chat/logo.svg"
+            },
+            {
+                "name": "user.webp",
+                "path": "assets/image/pages/ai_chat/user.webp"
             }
         ],
         "dependencies": {
