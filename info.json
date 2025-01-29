@@ -1,33 +1,4 @@
 {
-    "aichat": {
-        "name": "AI Chat",
-        "version": 1,
-        "path": "Application_UI/AI_Chat",
-        "files": [
-            {
-                "name": "index.html",
-                "path": "pages/ai_chat/index.html"
-            },
-            {
-                "name": "ai_chat_app.css",
-                "path": "assets/css/pages/ai_chat_app.css"
-            },
-            {
-                "name": "ai_chat_app.js",
-                "path": "assets/js/pages/ai_chat_app.js"
-            },
-            {
-                "name": "app.webmanifest",
-                "path": "assets/ai_chat/app.webmanifest"
-            }
-        ],
-        "directories": [
-            {
-                "name": "brand",
-                "path": "assets/brand/ai_chat"
-            }
-        ]
-    },
     "auth": {
         "name": "Authentication",
         "version": 1,
@@ -53,7 +24,21 @@
                 "name": "auth.css",
                 "path": "assets/css/pages/auth.css"
             }
-        ]
+        ],
+        "dependencies": {
+            "css": [
+                "main/base/variable.css",
+                "main/base/base.css",
+                "main/typography/typography.css",
+                "main/container/container.css",
+                "main/layout/layout.css",
+                "components/button/button.css",
+                "components/form/form.css"
+            ],
+            "js": [
+                "./components/form/form.js"
+            ]
+        }
     },
     "httperrorpages": {
         "name": "HTTP Error Pages",
@@ -104,6 +89,55 @@
                 "name": "http_error.css",
                 "path": "assets/css/pages/http_error.css"
             }
-        ]
+        ],
+        "dependencies": {
+            "css": [
+                "main/base/variable.css",
+                "main/base/base.css",
+                "main/typography/typography.css",
+                "components/button/button.css"
+            ]
+        }
+    },
+    "aichat": {
+        "name": "AI Chat",
+        "version": 1,
+        "path": "Application_UI/AI_Chat",
+        "files": [
+            {
+                "name": "index.html",
+                "path": "pages/ai_chat/index.html"
+            },
+            {
+                "name": "ai_chat_app.css",
+                "path": "assets/css/pages/ai_chat_app.css"
+            },
+            {
+                "name": "ai_chat_app.js",
+                "path": "assets/js/pages/ai_chat_app.js"
+            },
+            {
+                "name": "app.webmanifest",
+                "path": "assets/ai_chat/app.webmanifest"
+            },
+            {
+                "name": "logo.svg",
+                "path": "assets/brand/ai_chat/logo.svg"
+            }
+        ],
+        "dependencies": {
+            "css": [
+                "main/base/variable.css",
+                "main/base/variable_ext.css",
+                "main/base/variable_color.css",
+                "main/base/base.css",
+                "main/typography/typography.css",
+                "components/button/button.css",
+                "others/theme/theme.css"
+            ],
+            "js": [
+                "./others/theme/theme.js"
+            ]
+        }
     }
 }
