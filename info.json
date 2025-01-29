@@ -1,0 +1,109 @@
+{
+    "aichat": {
+        "name": "AI Chat",
+        "version": 1,
+        "path": "Application_UI/AI_Chat",
+        "files": [
+            {
+                "name": "index.html",
+                "path": "pages/ai_chat/index.html"
+            },
+            {
+                "name": "ai_chat_app.css",
+                "path": "assets/css/pages/ai_chat_app.css"
+            },
+            {
+                "name": "ai_chat_app.js",
+                "path": "assets/js/pages/ai_chat_app.js"
+            },
+            {
+                "name": "app.webmanifest",
+                "path": "assets/ai_chat/app.webmanifest"
+            }
+        ],
+        "directories": [
+            {
+                "name": "assets/brand",
+                "path": "assets/brand/ai_chat"
+            }
+        ]
+    },
+    "auth": {
+        "name": "Authentication",
+        "version": 1,
+        "path": "Application_UI/Authentication",
+        "files": [
+            {
+                "name": "sign_in.html",
+                "path": "pages/auth/sign_in.html"
+            },
+            {
+                "name": "sign_up.html",
+                "path": "pages/auth/sign_up.html"
+            },
+            {
+                "name": "forgot_password.html",
+                "path": "pages/auth/forgot_password.html"
+            },
+            {
+                "name": "reset_password.html",
+                "path": "pages/auth/reset_password.html"
+            },
+            {
+                "name": "auth.css",
+                "path": "assets/css/pages/auth.css"
+            }
+        ]
+    },
+    "httperrorpages": {
+        "name": "HTTP Error Pages",
+        "version": 1,
+        "path": "Utility_Pages/Error_Pages/HTTP",
+        "files": [
+            {
+                "name": "400.html",
+                "path": "pages/error/400.html"
+            },
+            {
+                "name": "401.html",
+                "path": "pages/error/401.html"
+            },
+            {
+                "name": "403.html",
+                "path": "pages/error/403.html"
+            },
+            {
+                "name": "404.html",
+                "path": "pages/error/404.html"
+            },
+            {
+                "name": "405.html",
+                "path": "pages/error/405.html"
+            },
+            {
+                "name": "429.html",
+                "path": "pages/error/429.html"
+            },
+            {
+                "name": "500.html",
+                "path": "pages/error/500.html"
+            },
+            {
+                "name": "502.html",
+                "path": "pages/error/502.html"
+            },
+            {
+                "name": "503.html",
+                "path": "pages/error/503.html"
+            },
+            {
+                "name": "504.html",
+                "path": "pages/error/504.html"
+            },
+            {
+                "name": "http_error.css",
+                "path": "assets/css/pages/http_error.css"
+            }
+        ]
+    }
+}
